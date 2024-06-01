@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-
+Deployed Link on Vercel: https://starwars-mauve-nine.vercel.app/
 In the project directory, you can run:
 
 ### `npm start`
