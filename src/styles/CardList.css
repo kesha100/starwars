@@ -1,0 +1,98 @@
+/* CardList.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.list {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.choosePosition {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.choosePosition div {
+    margin: 0 10px;
+}
+
+.prodCategore {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.prodCategore:hover {
+    background-color: #0056b3;
+}
+
+.mainCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card .up {
+    padding: 15px;
+}
+
+.card .thumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.card .gh {
+    display: block;
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.card .down {
+    padding: 15px;
+    text-align: center;
+    background-color: #f4f4f9;
+}
+
+.glow-on-hover {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.glow-on-hover:hover {
+    background-color: #0056b3;
+    box-shadow: 0 0 10px #007BFF;
+}
